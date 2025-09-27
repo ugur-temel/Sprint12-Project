@@ -9,7 +9,7 @@ import figmaLogo from "./src/assets/icons/figma-svg.svg"
 
 const data = {
     en : {
-        heroSection :{
+        heroSection:{
             greeting: "Hi! 👋🏻",
             intro:"",
             profileImage: "",
@@ -56,7 +56,7 @@ const data = {
                 }
             ]
         },
-        profileSection : {
+        profileSection: {
             title: "Profile",
             infoCard: {
                 title : "Basic Information",
@@ -67,11 +67,20 @@ const data = {
             },
             aboutMe: "Lorem Ipsum...",
         },
+           footerSection: {
+            footerText: "Let's work together on your next product.",
+            footerLinks: {
+                github: "",
+                blog: "",
+                linkedIn: "",
+                email: ""
+            }
+        }
 
 
     },
 
-    tr : { heroSection :{
+    tr : { heroSection: {
             greeting: "Merhaba! 👋🏻",
             intro:"",
             profileImage: "",
@@ -118,7 +127,7 @@ const data = {
                 }
             ]
         },
-        profileSection : {
+        profileSection: {
             title: "Profil",
             infoCard: {
                 title : "Hakkında",
@@ -129,6 +138,15 @@ const data = {
             },
             aboutMe: "Lorem Ipsum...",
         },
+        footerSection: {
+            footerText: "Bir sonraki projenizde birlikte çalışalım.",
+            footerLinks: {
+                github: "",
+                blog: "",
+                linkedIn: "",
+                email: ""
+            }
+        }
 
     }
 }

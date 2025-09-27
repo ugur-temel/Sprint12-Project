@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
@@ -16,6 +18,8 @@ return (
         <HeroSection />
         <Skills/>
         <Profile />
+        <Projects />
+        <ToastContainer />
     </ThemeProvider>
 </LanguageProvider>
 ) 
