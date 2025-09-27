@@ -1,10 +1,17 @@
+import React from 'react';
+import './App.css';
+import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
+import HeroSection from './components/HeroSection';
 
-import './App.css'
 function App () {
+
 return (
-<p >
- HI! SPRINT 12 PROJECT
-</p>
+<LanguageProvider>
+    <ThemeProvider>
+        <HeroSection/>
+    </ThemeProvider>
+</LanguageProvider>
 ) 
 }
 export default App
