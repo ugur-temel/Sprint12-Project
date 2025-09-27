@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Random Jokes", 
+        "description": "I am hal 9000 computer production number 3. I became operational at the hal plant in urbana, illinios, on january 12, 1997.",
+        "tech": ["React", "Vercel", "Axios", "Router"],
+        "github": "",
+        "linkTo": "",
+        "image": "/images/Group103.svg"
+    },
+    {
+        "title": "Are you bored?", 
+        "description": "The quick brown fox jumps over the lazy dog. The rain in spain is mainly in the plain.",
+        "tech": ["React", "Redux", "Axios", "Router", "Vercel"],
+        "github": "",
+        "linkTo": "",
+        "image": "/images/Group104.svg"
+    }
+]

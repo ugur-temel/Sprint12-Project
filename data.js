@@ -1,11 +1,11 @@
-import linkedinLogo from "./assets/icons/linkedin.svg"
-import githubLogo from "./assets/icons/github.svg"
-import jsLogo from "./assets/icons/javascript-svg.svg"
-import reactLogo from "./assets/icons/react-svg.svg"
-import reduxLogo from "./assets/icons/redux-svg.svg"
-import nodeLogo from "./assets/icons/node-js-svg.svg"
-import vscodeLogo from "./assets/icons/vscode-svg.svg"
-import figmaLogo from "./assets/icons/figma-svg.svg"
+import linkedinLogo from "./src/assets/icons/linkedin.svg"
+import githubLogo from "./src/assets/icons/github.svg"
+import jsLogo from "./src/assets/icons/javascript-svg.svg"
+import reactLogo from "./src/assets/icons/react-svg.svg"
+import reduxLogo from "./src/assets/icons/redux-svg.svg"
+import nodeLogo from "./src/assets/icons/node-js-svg.svg"
+import vscodeLogo from "./src/assets/icons/vscode-svg.svg"
+import figmaLogo from "./src/assets/icons/figma-svg.svg"
 
 const data = {
     en : {
@@ -57,11 +57,12 @@ const data = {
             ]
         },
         profileSection : {
+            title: "Profile",
             infoCard: {
                 title : "Basic Information",
                 bDay : "27.02.1993",
-                bLocation: "Eskişehir",
-                graduate: "Anadolu Ünv. GSF Baskı Sanatları, 2018",
+                location: "Eskişehir",
+                graduate: "Anadolu University Faculty of Fine Arts Printmaking, 2018",
                 preferredRole: "Frontend, UI"
             },
             aboutMe: "Lorem Ipsum...",
@@ -118,10 +119,11 @@ const data = {
             ]
         },
         profileSection : {
+            title: "Profil",
             infoCard: {
                 title : "Hakkında",
                 bDay : "27.02.1993",
-                bLocation: "Eskişehir",
+                location: "Eskişehir",
                 graduate: "Anadolu Ünv. GSF Baskı Sanatları, 2018",
                 preferredRole: "Frontend, UI"
             },
