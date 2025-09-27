@@ -1,5 +1,5 @@
 import { useLang } from "../context/LanguageContext";
-import data from ".../data";
+import data from "../../data";
 
 const HeroSection = () => {
     const { lang } = useLang();
