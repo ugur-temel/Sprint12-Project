@@ -7,7 +7,7 @@ const Projects = () => {
 
     useEffect(() => {
         axios 
-        .get("public/project.json")
+        .get("/project.json")
         .then((res) => {
             setProjects(res.data);
         })

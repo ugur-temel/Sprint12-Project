@@ -8,6 +8,7 @@ import HeroSection from './components/HeroSection';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import Profile from './components/Profile';
+import Projects from './components/Projects';
 
 function App () {
 
@@ -24,4 +25,4 @@ return (
 </LanguageProvider>
 ) 
 }
-export default App
+export default App;
