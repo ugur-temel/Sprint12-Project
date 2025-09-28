@@ -1,5 +1,5 @@
 import React from "react";
-import { toast } from "react-toastify";
+import { toast, Zoom } from "react-toastify";
 
 const ProjectCard = ({project}) => {
     const {title, description, tech, github, linkTo, image } = project;

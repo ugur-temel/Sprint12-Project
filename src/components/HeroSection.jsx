@@ -13,7 +13,7 @@ const HeroSection = () => {
             </div>
 
             <div>
-                <img>{content.profileImage}</img>
+                <img src={content.profileImage || undefined} />
             </div>
             <div>
                 <div>

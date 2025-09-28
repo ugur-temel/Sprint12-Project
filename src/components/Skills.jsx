@@ -2,7 +2,7 @@ import { useLang } from "../context/LanguageContext";
 import data from "../../data";
 
 const Skills = () => {
-    const {lang} = useLang;
+    const {lang} = useLang();
     const {title, skills} = data[lang].skillsSection;
 
     return (

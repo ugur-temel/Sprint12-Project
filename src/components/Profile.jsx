@@ -4,7 +4,7 @@ import data from "../../data";
 
 const Profile = () => {
     const {lang} = useLang();
-    const {infoCard, aboutMe} = data[lang].profileSection;
+    const {title, infoCard, aboutMe} = data[lang].profileSection;
 
     return(
         <>

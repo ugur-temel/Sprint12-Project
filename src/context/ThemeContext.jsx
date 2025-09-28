@@ -8,7 +8,7 @@ export const ThemeProvider = ({children}) => {
     const toggleTheme = () => {
         setTheme(prev => {
             const newTheme = prev === "light" ? "dark" : "light";
-            localStorage.setItem("appLang", newLang);
+            localStorage.setItem("appTheme", newTheme);
             return newTheme;
         })
     }
@@ -17,7 +17,7 @@ export const ThemeProvider = ({children}) => {
     }, [theme]);
 
     return(
-        <ThemeContexteContext.Provider value={{theme, toggleTheme}}> {children} </ThemeContexteContext.Provider>
+        <ThemeContext.Provider value={{theme, toggleTheme}}> {children} </ThemeContext.Provider>
     )
 }
 
